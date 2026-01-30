@@ -95,7 +95,7 @@ Screenshots are stored in the `screenshots` folder and provide evidence of:
   
 ## ![VM 1 Overview](screenshots/vm-web01-overview.jpg)
 
-## ![VM 2 Overview](screenshots/vm-web02-overview.png)
+## ![VM 2 Overview](screenshots/vm-web02-overview.jpg)
 
 
 ## Key Learnings
