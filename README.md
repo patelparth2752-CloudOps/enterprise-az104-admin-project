@@ -87,6 +87,30 @@ Nginx Web Server
 - Deleted virtual machines and associated resources
 - Deleted resource group to ensure zero ongoing cost
 
+## Screenshots
+
+Screenshots are stored in the `screenshots` folder and provide evidence of:
+- Web server access
+- Monitoring alerts
+![VM Overview](screenshots/vm-overview.png)
+
+## Key Learnings
+
+- Designed secure Azure network architecture
+- Implemented monitoring and alerting
+- Configured backup and recovery
+- Applied least privilege using RBAC
+- Controlled cloud costs through proper cleanup
+
+  ## Author
+
+**Parth**  
+AZ-104 Certified  
+Aspiring Azure Administrator
+
+
+
+
 
 
 
