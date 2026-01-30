@@ -54,4 +54,41 @@ Nginx Web Server
 - Created a subnet and associated Network Security Group (NSG)
 - Configured inbound security rules to allow HTTP traffic securely
 
+### Phase 2: Virtual Machine Deployment
+- Deployed Linux Virtual Machines in East US region
+- Selected cost-optimized VM sizes based on availability
+- Configured public IP and network interfaces
+- Ensured VMs were placed according to availability best practices
+
+### Phase 3: Web Server Configuration
+- Installed Nginx web server on Linux VM
+- Verified web access using browser
+- Confirmed HTTP traffic flow through NSG
+### Phase 4: Monitoring & Alerts
+- Enabled Azure Monitor for virtual machines
+- Created CPU utilization alert to monitor VM performance
+- Validated alert configuration and thresholds
+### Phase 5: Backup & Recovery
+- Created Recovery Services Vault
+- Enabled backup for Azure virtual machines
+- Verified successful backup status
+### Phase 6: Identity & Access Management (IAM)
+- Created a user with Reader role access
+- Assigned RBAC permissions at Resource Group level
+- Verified least-privilege access by blocking delete actions
+### Phase 7: Validation
+- Stopped one virtual machine to simulate failure
+- Verified website availability using the running VM
+- Confirmed alert existence and backup health
+- Validated RBAC restrictions for Reader user
+### Phase 8: Cleanup & Cost Control
+- Disabled VM backups
+- Deleted Recovery Services Vault
+- Deleted virtual machines and associated resources
+- Deleted resource group to ensure zero ongoing cost
+
+
+
+
+
 
