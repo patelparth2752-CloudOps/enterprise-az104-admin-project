@@ -16,8 +16,7 @@ The focus of this project is on real-world Azure administration tasks such as ne
 - Azure Monitor and Alerts
 - Recovery Services Vault (Backup)
 - Azure Role-Based Access Control (RBAC)
-- Cost Management and Resource Cleanup
-- GitHub Documentation
+- Cost Management
 
 ### Architecture Explanation
 
